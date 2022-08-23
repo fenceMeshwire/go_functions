@@ -8,7 +8,7 @@ func add_values(init_value int, next_values ...int) []int {
 	result := make([]int, 0, len(next_values))
 	for _, value := range next_values {
 		result = append(result, init_value+value)
-    // Adds up the first value with the following value(s).
+    		// Adds up the first value with the following value(s).
 	}
 	return result
 }
