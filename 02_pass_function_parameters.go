@@ -12,7 +12,6 @@ type spare_part struct {
   active bool
 }
 
-
 func main() {
 spare_parts := []spare_part {
   {"bolt", 12902, 3374, true},
@@ -46,6 +45,5 @@ spare_parts := []spare_part {
     return spare_parts[a].active != spare_parts[b].active
   })
   fmt.Println("Sorted by inactive/active product:")
-  fmt.Println(spare_parts)
-  
+  fmt.Println(spare_parts) 
 }
